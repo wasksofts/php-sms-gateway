@@ -5,7 +5,7 @@ php api for any sms gateway ,can be integrated on any php application
 
      //initialize setting
     require_once('../sms_api.php');
-    $url = "https://example.com/username=xxx&password=hhh&recepient={recipient}&messsage={message}";
+    $url = "https://example.com/username=xxx&password=hhh&recipient={recipient}&messsage={message}";
     $sms = new sms_api();
     
     //send sms
